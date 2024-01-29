@@ -1,0 +1,12 @@
+Getting Started
+Compile the Program: Compile the program using a C++ compiler such as g++.
+
+
+open cmd -->
+g++ main.cpp -o trizen
+
+Run the Program: Run the compiled executable -->
+./trizen
+
+
+-- comments are added inside the cpp file how it works and what it does --
