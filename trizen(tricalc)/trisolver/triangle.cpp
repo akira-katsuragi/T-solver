@@ -107,7 +107,8 @@ void Triangle::SSA(double b, double c, double B) {
 	//scenario 1
 	if (D > 1)
 	{	gamma = 0;//its just for reffrence to show its an impossible triangle 
-		//it should be changed to a boolean literall to cjeck if its a impossible triangle ;)
+		side_a = 0, side_b = 0, side_c = 0;// this condition may not satisfy but when 
+		//the is_possible function is called this will return false 
 		//no such triangle exsists
 	}
 	//scenario 2
